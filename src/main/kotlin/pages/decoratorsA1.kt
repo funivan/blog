@@ -1,11 +1,10 @@
 package com.funivan.blog.pages
 
+import com.funivan.blog.build.html
 import kotlinx.html.body
 import kotlinx.html.div
-import kotlinx.html.html
-import kotlinx.html.stream.createHTML
 
-fun decoratorsA1() = createHTML().html {
+fun decoratorsA1() = html {
     body {
         div {
             +"Decorators Title"
